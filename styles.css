@@ -1,0 +1,189 @@
+.bunty{
+    background-color: #11CDD4;
+    text-align: center;
+    padding-top: 100px;
+    position:relative;
+    
+    /* height: 200px;
+    width:200px; */
+    
+    /* border-width: 5px 0px 5px 0px; */
+    
+    /* margin: 10px; */
+    
+}
+/* never forget add a . before the class you have declared to the div */
+.a{
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    position:relative;
+    /* in the next module we discussed about the problem 
+    that the elements occupy the whole space to over come this
+    we are using the display properties which is inline block properties
+    to over this we use the inline-block property as 
+    display:inline-block; */
+    /* here we have four display properties
+    inline,block,inline-block,none  */
+    
+    
+    
+
+}
+.b{
+    background-color: orange;
+    height: 200px;
+    width: 200px;
+    
+    
+    
+}
+
+.cloud-left{
+    /* position: relative; */
+    position:absolute;
+    left: 250px;
+    bottom: 300px;
+    /* here we use postion property to move the blocks here and there
+    so we use the relative property there 
+    and as studied we also use the inline and certain various methods  */
+    
+    /* we are also having the absolute postioning property so this is 
+    different from that relative one */
+    /* and we also have the position which is fixed and is written
+    position: fixed; */
+}
+.cloud-right{
+    position:absolute;
+    top: 50px;
+    right: 200px;
+    
+
+}
+
+h1{
+    margin-top: 0;
+    font-family: 'Sacramento',sans-serif;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    color:#333535;
+    /* line-height: 2; */
+}
+h2{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 2.5rem;
+    color:#2a8080;
+    font-weight: normal;
+    
+}
+h3{
+    font-family: 'Montserrat',sans-serif;
+}
+body{
+    margin:0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color:#245d53  
+    
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+    
+}
+/* here we are using the float and clear properties to wrap the text within the image just 
+like as we did in the skills photo section  */
+.skillsphoto{
+    width:25%;
+    float:left;
+    margin-right: 30px;
+}
+.computer{
+    width: 25%;
+    float:right;
+    margin-left: 30px;
+}
+.angela-photo{
+    /* margin-top: 100px; */
+    margin: 100px 0px;
+}
+hr{
+    border:dotted 5px grey;
+    width:3%;
+    border-bottom: none;
+    
+    margin: 100px auto;
+}
+.intro{
+    width: 30%;
+    margin:auto;
+    line-height: 2;
+}
+.intro-footer{
+    width:30%;
+    margin: 40px auto 60px;
+}
+.btn {
+    background: #11CDD4;
+    background-image: -webkit-linear-gradient(top, #11CDD4, #1199E);
+    background-image: -moz-linear-gradient(top, #11CDD4, #1199E);
+    background-image: -ms-linear-gradient(top, #11CDD4, #1199E);
+    background-image: -o-linear-gradient(top, #11CDD4, #1199E);
+    background-image: linear-gradient(to bottom, #11CDD4, #1199E);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius:8px;
+    font-family: 'Montserrat',sans-serif;
+    color:#ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+  .bottom-container{
+    margin-top: 100px;
+    background-color: #66bfbf;
+    padding: 50px 0 20px;
+  }
+  a{
+    font-family: 'Montserrat',sans-serif; 
+    margin:10px 20px;
+    text-decoration: none;
+    color:black;
+  }
+  a:hover{
+    color:white;
+  }
+  .copyright{
+    color:white;
+    padding: 20px 0;   
+  }
+  .topper-container{
+    background-color: #11CDD4;
+    background-color: ;
+    padding:20px 0 20px;
+    font-family:'Montserrat',sans-serif ;
+    color:#333535;
+    font-weight: bolder;
+    
+
+  }
+  .header-link{
+    margin:10px 80px;
+  }
+  body{
+    width:100%;
+    
+  }
+ 
